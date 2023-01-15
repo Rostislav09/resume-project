@@ -5,20 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rostyslav Web Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="./css/reset.css">
 </head>
 <body>
+
 <header class="header">
     <div class="container up">
         <div class="row">
-            <div class="header-line">
-                <div class="line-block-left block-950 ">
+            <div class="header-line col-sm-4">
+                <div class="line-block-left">
                     <h1>Rostyslav</h1>
-            </div>
-            <div class="line-block-right block-950">
+                </div>
+            </div> 
+            <div class="line-block-right col-sm-8">
                 <nav class="header-nav">
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -32,44 +35,40 @@
                 </nav>
             </div>
         </div>
-        </div>
     </div>
     <div class="container slider">
-        <div class="row"></div>
-            <div class="left-side-panel block-170">
-                <ul>
-                    <li>
-                        <a href="#"><img src="./images/header-img/104498_facebook_icon.png" alt=""></a>
-                        <a href="#"><img src="./images/header-img/104501_twitter_bird_icon.png" alt=""></a>
-                        <a href="#"><img src="./images/header-img/1161953_instagram_icon.png" alt=""></a>
-                    </li>
-                    <h1>fs.petrenko@gmail.com</h1>
-                </ul>
+        <div class="row">
+            <div class="left-side-panel col-sm-1">
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./images/header-img/104498_facebook_icon.png" alt=""></a>
+                                <a href="#"><img src="./images/header-img/104501_twitter_bird_icon.png" alt=""></a>
+                                <a href="#"><img src="./images/header-img/1161953_instagram_icon.png" alt=""></a>
+                            </li>
+                            <h1>fs.petrenko@gmail.com</h1>
+                        </ul>
             </div>
-            <div class="header-block-left block-370">
-                <h3>Hello,Don't call me</h3>
-                <h1 class="text-red name">Rostik</h1>
-                <h4>Call me <span>Brother</span></h4>
-                <button class="btn-header">Say Hello</button>
-                <button class="btn-header">About me</button>
+            <div class="header-block-left col-sm-4">
+                    <h3>Hello,Don't call me</h3>
+                    <h1 class="text-red name">Rostik</h1>
+                    <h4>Call me <span>Brother</span></h4>
+                    <button class="btn-header">Say Hello<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/></svg></button>
+                    <button class="btn-header">About me</button>
             </div>
-            <div class="header-block-right block-570">
-                <img src="./images/header-img/fone i nadpisb i kvadrat.png" alt="">
+            <div class="header-block-right col-sm-7">
+                    <img class="img-fluid" src="./images/header-img/fone i nadpisb i kvadrat.png" alt="">
             </div>
         </div>
-    </div>
-{   
-
-    </div>
+    </div> 
 </header>
 
 <div class="about">
     <div class="container">
-        <div class="row">
-            <div class="about-block-photo-left block-580">
-                <img src="./images/about/about-left.png" alt="">
+        <div class="row content-padding">
+            <div class="about-block-photo-left col-sm-4">
+                <img class="img-fluid" src="./images/about/about-left.png" alt="">
             </div>
-            <div class="about-block-text block-740">
+            <div class="about-block-text col-5">
                 <h2><span class="text-red">I'm for you</span></h2>
                 <h1>I'm <span class="text-red">Rostyslav</span></h1>
                 <h1>I'm Your <span class="text-red">Brother</span></h1>
@@ -77,8 +76,8 @@
                 <h3>I have production expirience in design of web sites,landing pages, marketing assets,etc.Skilled in multitasking and working on several projects simultaneously. I can write undesrstandable code,understand and work other people's code.I am easily trained and I want to work in a friendly team of professionals.</h3>
                 <button class="btn-about">Download CV</button>
             </div>
-            <div class="about-block-photo-right block-580">
-                <img class="image-about-square" src="./images/about/about-right.png" alt="">
+            <div class="about-block-photo-right col-sm-3">
+                <img class="image-about-square img-fluid" src="./images/about/about-right.png" alt="">
                 <img class="image-about-photo"src="./images/about/about-photo-right.png" alt="">
             </div>
         </div>
@@ -87,36 +86,43 @@
 
 <div class="skills">
     <div class="container">
-        <div class="row">
-            <div class="my-scills-text block-950">
-                <h2 class="text-scills">My Skills</h2>
-                <h1 class="text-scills">You Can Imagine <br>Can Do</h1>
-                <h3 class="text-scills">Landing page development using HTML, CSS and JavaScript.<br>Developing own code style, CSS libraries and JavaScript plugins.<br>Responsive cross-platform markup development utilizing HTML5.</h3>
-            </div>
-            <div class="my-skills-range block-950">
-                <h3 class="range-scills">HTML/CSS</h3>
-                <input class="range-scills" type="range" value="100" min="1" max="100" oninput="this.nextElementSibling.value=this.value">
-                <output class="skills-output">100</output>
-                <h3 class="range-scills">JavaScript/TypeScript</h3>
-                <input class="range-scills" type="range" value="80" min="1" max="100" oninput="this.nextElementSibling.value=this.value">
-                <output class="skills-output">80</output>
-                <h3 class="range-scills">React</h3>
-                <input class="range-scills" type="range" value="50" min="1" max="100" oninput="this.beforeElementSibling.value=this.value">
-                <output class="skills-output">50</output>
-            </div>
-            <div class="works-text">
-                <div class=" block-1900">
-                    <h2>I'm for You</h2>
-                    <h1>Check my works</h1>
+        <div class="row content-padding">
+            <div class="my-skills-text col-md-6">
+                <div class="row">
+                    <div class=" text col-md-12">
+                    <h3 class="text-skills ">My Skills</h3>
+                    <h1 class="text-skills ">You Can Imagine <br>Can Do</h1>
+                    <h3 class="text-skills ">Landing page development using HTML, CSS and JavaScript.<br>Developing own code style, CSS libraries and JavaScript plugins.<br>Responsive cross-platform markup development utilizing HTML5.</h3>
                 </div>
-        
-                <div class="nav-works block-1900">
-                    <ul>
-                        <li><a href="#">All</a></li>
-                        <li><a href="#">UI/UX Design</a></li>
-                        <li><a href="#">Web Design</a></li>
-                        <li><a href="#">Web Development</a></li>
-                    </ul>
+                </div>
+            </div>
+            <div class="my-skills-range col-md-6">
+                <div class="row">
+                    <h3 class="range-skills col-md-12">HTML/CSS</h3>
+                    <input class="range-skills col-md-12" type="range" value="100" min="1" max="100" oninput="this.nextElementSibling.value=this.value">
+                    <output class="skills-output col-md-12">100%</output>
+                    <h3 class="range-skills col-md-12">JavaScript/TypeScript</h3>
+                    <input class="range-skills col-md-12" type="range" value="80" min="1" max="100" oninput="this.nextElementSibling.value=this.value">
+                    <output class="skills-output col-md-12">80%</output>
+                    <h3 class="range-skills col-md-12">React</h3>
+                    <input class="range-skills col-md-12" type="range" value="50" min="1" max="100" oninput="this.nextElementSibling.value=this.value">
+                    <output class="skills-output col-md-12">50%</output>
+                </div>
+            </div>
+            <div class="works-text col-md-12">
+                <div class="row">
+                    <div class="works-title text-center col-md-12">
+                        <h2>I'm for You</h2>
+                        <h1>Check my works</h1>
+                    </div>
+                    <div class="nav-works text-center col-md-12">
+                        <ul>
+                            <li><a href="#">All</a></li>
+                            <li><a href="#">UI/UX Design</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Web Development</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="works-img-square">
@@ -127,90 +133,97 @@
 </div>
 
 <div class="works">
-     <div class="container">
-            <div class="row">
-
-            <div class="works-blocks block-670">
+     <div class="container text-center col-md-12">
             
-                <div class="block-270 work-img" ><a href=""><img src="./images/works/item 01.png" alt=""></a></div>
-                <div class="block-270 work-img"><a href=""><img src="./images/works/item 02.png" alt=""></a></div>
-                <div class="block-270 work-img"><a href=""><img src="./images/works/item 03.png" alt=""></a></div>
-                <div class="block-270 work-img"><a href=""><img src="./images/works/item 04.png" alt=""></a></div>
-                <div class="block-270 work-img"><a href=""><img src="./images/works/item 05.png" alt=""></a></div>
-                <div class="block-270 work-img"><a href=""><img src="./images/works/item 06.png" alt=""></a></div>
+
+            <div class="row works-blocks content-padding">
+                <div class="col-md-4 work-img "><a href=""><img src="./images/works/item 01.png" alt=""></a></div>
+                <div class="col-md-4 work-img "><a href=""><img src="./images/works/item 02.png" alt=""></a></div>
+                <div class="col-md-4 work-img "><a href=""><img src="./images/works/item 03.png" alt=""></a></div>
+                <div class="col-md-4 work-img "><a href=""><img src="./images/works/item 04.png" alt=""></a></div>
+                <div class="col-md-4 work-img "><a href=""><img src="./images/works/item 05.png" alt=""></a></div>
+                <div class="col-md-4 work-img "><a href=""><img src="./images/works/item 06.png" alt=""></a></div>
             </div>
-        </div>
+            
+        
     </div>
 </div>
 
 <div class="service">
     <div class="container">
-        <div class="row">
-            <div class="service-blocks block-69">
-                <div class="cart-service block-34">
+        <div class="row carts-service-block content-padding">
+            
+                <div class="cart-service col-md-5">
                     
-                        <p><h2><span class="text-red">What I do</span></h2>
+                        <h2><span class="text-red">What I do</span></h2>
                         <h3>My Service</h3>
                         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae cum iure vitae hic repellendus! Nemo maxime nesciunt quisquam ad veritatis, dignissimos autem atque reiciendis architecto quia! Maiores aperiam aliquam distinctio!</h3></p>
                     
                 </div>
-                <div class="cart-service bg block-34">
-                    <div class="cart-service-image block-9">
-                        <img src="./images/services/icons-1.png" alt="">
-                    </div>
-                    <div class="cart-service-text block-72">
-                        <h1>Video Production</h1>
-                        <h3>Starts from <span class="text-red">49$</span></h3>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nobis ducimus, animi dolorem sit eaque neque nam dolor ullam. Obcaecati dolor labore, accusamus accusantium nihil quidem atque veniam tempora rerum?
-                    </div>
-                </div>
-                <div class="cart-service bg block-34">
-                    <div class="cart-service-image block-9">
-                        <img  src="./images/services/icons-1.png" alt="">
-                    </div>
-                    <div class="cart-service-text block-72">
-                        <h1>Video Production</h1>
-                        <h3>Starts from <span class="text-red">49$</span></h3>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nobis ducimus, animi dolorem sit eaque neque nam dolor ullam. Obcaecati dolor labore, accusamus accusantium nihil quidem atque veniam tempora rerum?
+                <div class="cart-service bg col-md-5">
+                    <div class="row">
+                        <div class="cart-service-image col-md-3">
+                            <img src="./images/services/icons-1.png" alt="">
+                        </div>
+                        <div class="cart-service-text col-md-9">
+                            <h1>Video Production</h1>
+                            <h3>Starts from <span class="text-red">49$</span></h3>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nobis ducimus, animi dolorem sit eaque neque nam dolor ullam. Obcaecati dolor labore, accusamus accusantium nihil quidem atque veniam tempora rerum?
+                        </div>
                     </div>
                 </div>
-                <div class="cart-service bg block-34">
-                    <div class="cart-service-image block-9">
-                        <img  src="./images/services/icons-2.png" alt="">
-                    </div>
-                    <div class="cart-service-text block-72">
-                        <h1>Video Production</h1>
-                        <h3>Starts from <span class="text-red">49$</span></h3>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nobis ducimus, animi dolorem sit eaque neque nam dolor ullam. Obcaecati dolor labore, accusamus accusantium nihil quidem atque veniam tempora rerum?
-                    </div>
-                </div>
-                <div class="cart-service bg block-34">
-                    <div class="cart-service-image block-9">
-                        <img src="./images/services/icons-3.png" alt="">
-                    </div>
-                    <div class="cart-service-text block-72">
-                        <h1>Video Production</h1>
-                        <h3>Starts from <span class="text-red">49$</span></h3>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nobis ducimus, animi dolorem sit eaque neque nam dolor ullam. Obcaecati dolor labore, accusamus accusantium nihil quidem atque veniam tempora rerum?
+                <div class="cart-service bg col-md-5">
+                    <div class="row">
+                        <div class="cart-service-image col-md-3">
+                            <img  src="./images/services/icons-1.png" alt="">
+                        </div>
+                        <div class="cart-service-text col-md-9">
+                            <h1>Video Production</h1>
+                            <h3>Starts from <span class="text-red">49$</span></h3>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nobis ducimus, animi dolorem sit eaque neque nam dolor ullam. Obcaecati dolor labore, accusamus accusantium nihil quidem atque veniam tempora rerum?
+                        </div>
                     </div>
                 </div>
-                <div class="cart-service block-34">
+                <div class="cart-service bg col-md-5">
+                    <div class="row">
+                        <div class="cart-service-image col-md-3">
+                            <img  src="./images/services/icons-2.png" alt="">
+                        </div>
+                        <div class="cart-service-text col-md-9">
+                            <h1>Video Production</h1>
+                            <h3>Starts from <span class="text-red">49$</span></h3>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nobis ducimus, animi dolorem sit eaque neque nam dolor ullam. Obcaecati dolor labore, accusamus accusantium nihil quidem atque veniam tempora rerum?
+                        </div>
+                    </div>    
+                </div>
+                <div class="cart-service bg col-md-5">
+                    <div class="row">
+                        <div class="cart-service-image col-md-3">
+                            <img src="./images/services/icons-3.png" alt="">
+                        </div>
+                        <div class="cart-service-text col-md-9">
+                            <h1>Video Production</h1>
+                            <h3>Starts from <span class="text-red">49$</span></h3>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid nobis ducimus, animi dolorem sit eaque neque nam dolor ullam. Obcaecati dolor labore, accusamus accusantium nihil quidem atque veniam tempora rerum?
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-service col-md-5">
                     <div class="cart-service-text-down">
                         <h1>Do You Want Something Different</h1>
                         <button class="cart-service-btn"><h2>Knock Me</h2></button>
                     </div>
 
                 </div>
-            </div>
+            
         </div>
     </div>
 </div>
 
 <div class="resume">
     <div class="container"> 
-        <div class="row">
-            <div class="resume-column block-69">
-                 <div class="cart-service block-69">
+        <div class="row content-padding">
+                 <div class="cart-service col-md-10">
                     
                 <p><h2><span class="text-red">Know more</span></h2>
                 <h3>My Resume</h3>
@@ -220,110 +233,123 @@
                     architecto quia! Maiores aperiam aliquam distinctio!</h3></p>
             
                 </div>
-                <div class="cart-service-education block-34">
+                <div class="cart-service-education col-md-5">
                     <div class="cart-serv-ed-title">
-                        <div class="resume-logo-title block-2"><img src="./images/resume/mins.png" alt=""></div>
-                        <div class="resume-text-title block-82" ><h1>Education</h1></div>
-                    </div>
-                        
+                        <div class="row">
+                            <div class="resume-logo-title col-sm-1"><img src="./images/resume/mins.png" alt=""></div>
+                            <div class="resume-text-title col-sm-11" ><h1>Education</h1></div>
+                        </div>
+                    </div>          
                     <div class="cart-serv-ed-text">
-                        <div class="resume-block-image-left block-5"><img src="./images/resume/label-education.png" alt=""></div>
-                        <div class="resume-block-text block-670">
-                            <h1>Bachelor of Science	</h1>
-                            <h3>Dhaka University </h3>
-                        </div>
-                        <div class="resume-block-data block-15">
-                            <h4>2012-2018</h4>
-                        </div>
-                        <div class="resume-block-description block-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
-                        </div>
-                    </div>
-                    <div class="cart-serv-ed-text">
-                        <div class="resume-block-image-left block-5"><img src="./images/resume/label-education.png" alt=""></div>
-                        <div class="resume-block-text block-670">
-                            <h1>Bachelor of Science	</h1>
-                            <h3>Dhaka University </h3>
-                        </div>
-                        <div class="resume-block-data block-15">
-                            <h4>2012-2018</h4>
-                        </div>
-                        <div class="resume-block-description block-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                        <div class="row">	
+                            <div class="resume-block-image-left col-md-1"><img src="./images/resume/label-education.png" alt=""></div>
+                            <div class="resume-block-text col-md-8">
+                                <h1>Bachelor of Science	</h1>
+                                <h3>Dhaka University </h3>
+                                <div class="resume-block-description">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                                </div>
+                            </div>
+                            <div class="resume-block-data col-md-3">
+                                <h4>2012-2018</h4>
+                            </div>
                         </div>
                     </div>
                     <div class="cart-serv-ed-text">
-                        <div class="resume-block-image-left block-5"><img src="./images/resume/label-education.png" alt=""></div>
-                        <div class="resume-block-text block-670">
-                            <h1>Bachelor of Science	</h1>
-                            <h3>Dhaka University </h3>
+                        <div class="row">	
+                            <div class="resume-block-image-left col-md-1"><img src="./images/resume/label-education.png" alt=""></div>
+                            <div class="resume-block-text col-md-8">
+                                <h1>Bachelor of Science	</h1>
+                                <h3>Dhaka University </h3>
+                                <div class="resume-block-description">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                                </div>
+                            </div>
+                            <div class="resume-block-data col-md-3">
+                                <h4>2012-2018</h4>
+                            </div>
                         </div>
-                        <div class="resume-block-data block-15">
-                            <h4>2012-2018</h4>
-                        </div>
-                        <div class="resume-block-description block-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                    </div>
+                    <div class="cart-serv-ed-text">
+                        <div class="row">	
+                            <div class="resume-block-image-left col-md-1"><img src="./images/resume/label-education.png" alt=""></div>
+                            <div class="resume-block-text col-md-8">
+                                <h1>Bachelor of Science	</h1>
+                                <h3>Dhaka University </h3>
+                                <div class="resume-block-description">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                                </div>
+                            </div>
+                            <div class="resume-block-data col-md-3">
+                                <h4>2012-2018</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="cart-service-experience block-34">
+                <div class="cart-service-experience col-md-5">
                     <div class="cart-serv-ed-title">
-                        <div class="resume-logo-title block-2"><img src="./images/resume/mins.png" alt=""></div>
-                        <div class="resume-text-title block-82" ><h1>Experience</h1></div>
-                    </div>
-
-                    <div class="cart-serv-ex-text">
-                        <div class="resume-block-image-left block-5"><img src="./images/resume/label-experieance.png" alt=""></div>
-                        <div class="resume-block-text block-670">
-                            <h1>Product designer</h1>
-                            <h3>Easy competers</h3>
+                        <div class="row">
+                            <div class="resume-logo-title col-md-1"><img src="./images/resume/mins.png" alt=""></div>
+                            <div class="resume-text-title col-md-11" ><h1>Education</h1></div>
                         </div>
-                        <div class="resume-block-data block-15">
-                            <h4>2010-runing</h4>
-                        </div>
-                        <div class="resume-block-description block-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
-                        </div>
-                    </div>
-                    <div class="cart-serv-ex-text">
-                        <div class="resume-block-image-left block-5"><img src="./images/resume/label-experieance.png" alt=""></div>
-                        <div class="resume-block-text block-670">
-                            <h1>UI/UX Expert</h1>
-                            <h3>Rainy Design/h3>
-                        </div>
-                        <div class="resume-block-data block-15">
-                            <h4>2010-runing</h4>
-                        </div>
-                        <div class="resume-block-description block-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                    </div>          
+                    <div class="cart-serv-ed-text">
+                        <div class="row">	
+                            <div class="resume-block-image-left col-md--1"><img src="./images/resume/label-experieance.png" alt=""></div>
+                            <div class="resume-block-text col-md-8">
+                                <h1>Bachelor of Science	</h1>
+                                <h3>Dhaka University </h3>
+                                <div class="resume-block-description">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                                </div>
+                            </div>
+                            <div class="resume-block-data col-md-3">
+                                <h4>2012-2018</h4>
+                            </div>
                         </div>
                     </div>
-                    <div class="cart-serv-ex-text">
-                        <div class="resume-block-image-left block-5"><img src="./images/resume/label-experieance.png" alt=""></div>
-                        <div class="resume-block-text block-670">
-                            <h1>Frontend Devoloper</h1>
-                            <h3>Dhaka University</h3>
+                    <div class="cart-serv-ed-text">
+                        <div class="row">	
+                            <div class="resume-block-image-left col-md-1"><img src="./images/resume/label-experieance.png" alt=""></div>
+                            <div class="resume-block-text col-md-8">
+                                <h1>Bachelor of Science	</h1>
+                                <h3>Dhaka University </h3>
+                                <div class="resume-block-description">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                                </div>
+                            </div>
+                            <div class="resume-block-data col-md-3">
+                                <h4>2012-2018</h4>
+                            </div>
                         </div>
-                        <div class="resume-block-data block-15">
-                            <h4>2010-runing</h4>
-                        </div>
-                        <div class="resume-block-description block-900">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                    </div>
+                    <div class="cart-serv-ed-text">
+                        <div class="row">	
+                            <div class="resume-block-image-left col-sm-1"><img src="./images/resume/label-experieance.png" alt=""></div>
+                            <div class="resume-block-text col-md-8">
+                                <h1>Bachelor of Science	</h1>
+                                <h3>Dhaka University </h3>
+                                <div class="resume-block-description">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime et quidem veritatis explicabo deserunt dolore ex cupiditate ratione, alias accusantium libero saepe dignissimos repellat quibusdam? A quas sint at provident.
+                                </div>
+                            </div>
+                            <div class="resume-block-data col-md-3">
+                                <h4>2012-2018</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
-          </div>
         </div>
     </div>
 </div>
 
 <div class="testimonial">
     <div class="container">
-        <div class="row">
-            <div class="testimonial-photo block-740">
+        <div class="row content-padding">
+            <div class="testimonial-photo col-md-6">
                 <img src="./images/testimonial/foto2-1.png" alt="">
             </div>
-            <div class="testimonial-text block-740">
+            <div class="testimonial-text col-md-4">
                 <h3>Testimonial</h3>
                 <h2>What People Say</h2>
                 <h3>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim ied est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem </h3>
@@ -331,44 +357,45 @@
                 <p class="testimional-p">Tom Anderson<span>journalist</span></p>
                 <button class="testimonial-btn">&#8592</button>
                 <button class="testimonial-btn">→</button>
+                <img class="box-style col-md-2" src="./images/testimonial/style box.png" alt="">
             </div>
-            <div class="testimonial-quotes block-15">
-                <img src="./images/testimonial/quote icon.png" alt="">
+            <div class="testimonial-quotes col-md-2">
+                <img class="quotes" src="./images/testimonial/quote icon.png" alt="">
             </div>
-            <div class="box-style block-15">
-                <img src="./images/testimonial/style box.png" alt="">
-            </div>
+            
         </div>
     </div>
 </div>
 
 <div class="blog">
     <div class="container">
-        <div class="row">
-            <div class="blog-title block-69">
+        <div class="row content-padding">
+            <div class="blog-title col-md-12 text-center ">
                 <h2>Latest updates</h2>
                 <h1>From My Blog</h1>
-                <h2>Letetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>   
+                <h2>Letetur adipisicing elit, sed do eiusmod tempor incididunt ut labore<br>et dolore magna aliqua.</h2>   
             </div>
-            <div class="blog-cart block-69">
-                <div class="blog-cart-img block-9" ><img src="./images/blog/Aali free psd template.png" alt=""></div>
-                <div class="blog-cart-text block-9">
-                    <h1><span class="text-red">Web Design</span></h1>
-                    <h1>Licididunt ut labore et dolore magna aliqua.</h1> 
-                    <h3>October 10, 2021</h3>
+            <div class="blog-cart">
+                <div class="row">
+                    <div class="blog-cart-img col-md-4" ><img src="./images/blog/Aali free psd template.png" alt=""></div>
+                    <div class="blog-cart-text col-md-6">
+                        <h1><span class="text-red">Web Design</span></h1>
+                        <h1>Licididunt ut labore et dolore magna aliqua.</h1> 
+                        <h3>October 10, 2021</h3>
+                    </div>
+                    <div class="blog-cart-btn col-md-2"><button class="cart-btn">Full Story</button></div>
                 </div>
-                <div class="blog-cart-btn block-9"><button class="cart-btn">Full Story</button></div>
-                
             </div>
-            <div class="blog-cart block-69">
-                <div class="blog-cart-img block-9" ><img src="./images/blog/Aali free psd template 2.png" alt=""></div>
-                <div class="blog-cart-text block-9">
-                    <h1><span class="text-red">Web Design</span></h1>
-                    <h1>Licididunt ut labore et dolore magna aliqua.</h1> 
-                    <h3>October 10, 2021</h3>
+            <div class="blog-cart">
+                <div class="row">
+                    <div class="blog-cart-img col-md-4" ><img src="./images/blog/Aali free psd template 2.png" alt=""></div>
+                    <div class="blog-cart-text col-md-6">
+                        <h1><span class="text-red">Web Design</span></h1>
+                        <h1>Licididunt ut labore et dolore magna aliqua.</h1> 
+                        <h3>October 10, 2021</h3>
+                    </div>
+                    <div class="blog-cart-btn col-md-2"><button class="cart-btn">Full Story</button></div>
                 </div>
-                <div class="blog-cart-btn block-9"><button class="cart-btn">Full Story</button></div>
-                
             </div>
         </div>
     </div>
@@ -376,23 +403,29 @@
 
 <div class="facts">
     <div class="container">
-        <div class="row">
-            <div class="red-facts block-770">
-                <div class="projects block-580">
-                    <div class="namber block-10"><h1>5K</h1></div>
-                    <div class="facts-text block-170"><h3>JavaScript<br>Projects</h3></div>
+        <div class="row content-padding">
+            
+                <div class="products col-md-4">
+                    <div class="row">
+                    <div class="namber col-md-2"><h1>5K</h1></div>
+                    <div class="facts-text col-md-10"><h3>JavaScript<br>Projects</h3></div>
+                    </div>
                 </div>
-                <div class="products block-580">
-                    <div class="namber block-9"><h1>90+</h1></div>
-                    <div class="facts-text block-10"><h3>Products</h3></div>
+                <div class="products col-md-4">
+                    <div class="row">
+                    <div class="namber col-md-2"><h1>90+</h1></div>
+                    <div class="facts-text col-md-10"><h3>Products</h3></div>
+                    </div>
                 </div>
-                 <div class="clients block-580">
-                    <div class="namber block-9"><h1>300<span>+</span></h1></div>
-                    <div class="facts-text block-15"><h3>Happy Clients</h3></div>
+                 <div class="products col-md-4">
+                    <div class="row">
+                    <div class="namber col-md-2"><h1>300<span>+</span></h1></div>
+                    <div class="facts-text col-md-10"><h3>Happy Clients</h3></div>
+                    </div>
                 </div>
-            </div>  
-            <div class="facts-border block-5">
-                <img src="./images/facts/border2.png" alt="">
+              
+            <div class="facts-border">
+                <img class="facts-border-img" src="./images/facts/border2.png" alt="">
             </div>
          </div>
     </div>
@@ -400,27 +433,34 @@
 
 <div class="contact">
     <div class="container">
-        <div class="row">
+        <div class="row content-padding">
             
-            <div class="contact-title block-69">
+            <div class="contact-title col-md-12 text-center">
                 <h2><span class="text-red">Get in Touch</span></h2>
                 <h1>Connect with Me with</h1>
                 <h1>Confidence</h1>   
             </div>
-            <div class="contact-block-left block-740">
-                <div class="contact-block-text block-82">
+            <div class="contact-block-left col-md-6">
+                <div class="row">
+                <div class="contact-block-text col-md-12">
                     <h3>Daecat cupidatat non proident, sunt in culpa qui officia deserunt mollit unde omnis sint oc caecat cupidatat non proident, sunt in culpa </h3>
                 </div>
-                <div class="contact-blok-phone block-82 ">
-                    <div class="contact-block-image block-5"><img src="./images/contacts/031-call.png" alt=""></div>
-                    <div class="contact-blog-text-number block-69"><h3>Call Me</h3><br><h1><span class="text-red">123 45678 9000</span></h1></div>
                 </div>
-                <div class="contact-blok-mail block-82 ">
-                    <div class="contact-block-image block-5"><img src="./images/contacts/122-letter.png" alt=""></div>
-                    <div class="contact-blog-text-mail block-69"><h3>Email</h3><br><h1><span class="text-red">fs.petrenko@gmail.com</span></h1></div>
+                <div class="contact-blok-phone ">
+                    <div class="row">
+                        <div class="contact-block-image col-md-2"><img src="./images/contacts/031-call.png" alt=""></div>
+                        <div class="contact-blog-text-number col-md-10"><h3>Call Me</h3><br><h1><span class="text-red">123 45678 9000</span></h1>
+                    </div>
+                </div>
+                </div>
+                <div class="contact-blok-mail ">
+                    <div class="row">
+                        <div class="contact-block-image col-md-2"><img src="./images/contacts/122-letter.png" alt=""></div>
+                        <div class="contact-blog-text-mail col-md-10"><h3>Email</h3><br><h1><span class="text-red">fs.petrenko@gmail.com</span></h1></div>
+                    </div>
                 </div>
             </div>
-            <div class="contact-form-right block-740">
+            <div class="contact-form-right col-md-6">
                 <form class=contacts-form action="">
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
                     <input type="text" id="email" name="lastname" placeholder="Your email ...">
@@ -428,22 +468,20 @@
                     <input type="text" id="message" name="lastname" style="height: 200px;" placeholder="Your message..">
                     <input class="contact-form-btn" type="submit" value="Submit">
             </div>
-        
         </div>
     </div>
 </div>
 
 <footer class="saite-footer">
 <div class="container">
-    <div class="row">
-        <div class="footer-left-block block-370">
+    <div class="row content-padding">
+        <div class="footer-left-block col-md-6">
             <img class="footer-border" src="./images/footer/border.png" alt="">
             <h1 class="footer-logo">Rostik</h1>
-            <h3 class="footer-bottom">Design with love by RostislavⒸ2023</h3>
-            
+            <div class="footer-bottom-left"><h3>Design with love by RostislavⒸ2023</h3></div>
         </div>
 
-        <div class="footer-right-block block-570">
+        <div class="footer-bottom-block col-md-6">
             <ul class="footer-nav-up">
                 <li>
                     <a class="connect-footer" href="">Connect</a>
@@ -451,8 +489,8 @@
                     <a href=""><img src="./images/footer/instagramm.png" alt=""></a>
                     <a href=""><img src="./images/footer/twiter.png" alt=""></a>
                 </li>
-                <div  class="footer-bottom block-270"><h3>Terms & Condition Privacy Policy Support</h3></div>  
             </ul>
+            <div  class="footer-bottom-right"><h3>Terms & Condition Privacy Policy Support</h3></div>
             
         </div>
     </div>
@@ -460,6 +498,6 @@
 </footer>
 
     <script src="./script.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
